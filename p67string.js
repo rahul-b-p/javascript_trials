@@ -34,3 +34,41 @@ str1=str.substring(2,5)
 console.log(str1);
 str2=str.substring(2)
 console.log(str2);
+
+console.log('----------------------------------------------------');
+
+// slice
+a=str.slice(1,4)
+console.log(a);
+
+b=str.slice(-5)
+console.log(b);
+
+console.log('----------------------------------------------------');
+
+inst='Luminar Technolab'
+// split
+inst1=inst.split(' ')
+console.log(inst1);
+
+console.log('----------------------------------------------------');
+
+// replace
+sent1='I Joined Microsoft'
+console.log(sent1.replace('Microsoft', 'Google'));
+
+sent2='Block chain Technology'
+console.log(sent2.replace(' ',''));
+
+// replaceAll
+alph='A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'
+console.log(alph.replaceAll(' ',','));
+
+// Array.from
+alph1=alph.replaceAll(' ','')
+console.log(Array.from(alph1));
+
+// index position
+hi='hello'
+// to print e and o
+console.log(hi[1],hi[4]);
